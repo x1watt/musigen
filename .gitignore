@@ -1,0 +1,6 @@
+.venv/
+.venv-acestep/
+models/
+__pycache__/
+*.pyc
+musicgen/out/

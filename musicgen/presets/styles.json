@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "styles": {
+    "techno": {
+      "label": "Melodic Techno",
+      "keywords": "melodic techno, driving four-on-the-floor kick, rolling bassline, hypnotic arpeggio, warm analog pads, sidechain compression, cavernous warehouse reverb, 126 bpm",
+      "arc": "deep intro, slow filter sweep build, full drop, hypnotic groove, dark breakdown, huge final drop, long decay outro",
+      "mix": "punchy club mix, saturated analog warmth"
+    },
+    "house": {
+      "label": "Deep House",
+      "keywords": "deep house, soulful chord stabs, rubbery bass, offbeat open hi-hat, Rhodes chords, vinyl crackle, 122 bpm, groovy",
+      "arc": "moody intro, filtered Rhodes build, laid-back groove, vocal chop break, full energy groove, extended sunset outro",
+      "mix": "warm analog mix, soft tape saturation"
+    },
+    "dnb": {
+      "label": "Drum and Bass",
+      "keywords": "drum and bass, breakbeat, reese bass, liquid soul chords, crisp break, ride cymbals, 174 bpm, energetic",
+      "arc": "quiet intro, filtered break build, rolling reese, half time breakdown, rolling reese, triumphant outro",
+      "mix": "wide stereo reese, tight break, high energy"
+    },
+    "ambient": {
+      "label": "Ambient Drone",
+      "keywords": "ambient drone, evolving pads, granular textures, sparse bell tones, long reverb tails, slow swells, no drums, meditative",
+      "arc": "sparse opening, slow rising swell, dense texture, quiet hollow center, wide warm peak, gentle fade",
+      "mix": "very wide stereo, extremely long reverb, soft dynamics"
+    },
+    "lofi": {
+      "label": "Lo-fi Hip Hop",
+      "keywords": "lofi hip hop, dusty jazz chords, boom bap drums, vinyl crackle, muted upright bass, tape wobble, warm rhodes, chill, 78 bpm",
+      "arc": "lazy intro, dusty groove, mellow breakdown, laid back groove, reflective middle, sleepy fade",
+      "mix": "lowpassed dusty mix, tape hiss, soft clipping"
+    },
+    "trap": {
+      "label": "Trap",
+      "keywords": "trap, 808 sub bass, sharp hi hat rolls, snappy snare, dark minor chords, sparse trap beat, 140 bpm, heavy",
+      "arc": "dark intro, minimal build, heavy 808 drop, sparse verse, full trap groove, hard outro",
+      "mix": "punchy 808 low end, crisp transients, wide sub"
+    },
+    "cinematic": {
+      "label": "Cinematic Score",
+      "keywords": "cinematic orchestral score, sweeping strings, brass swells, timpani hits, piano motif, huge hall reverb, film trailer, dramatic, building",
+      "arc": "lonely piano motif, slow string entrance, rising percussion, full brass climax, emotional break, huge final hit, fading tail",
+      "mix": "wide cinematic mix, huge hall, dramatic dynamics"
+    },
+    "punk": {
+      "label": "Fast Punk",
+      "keywords": "fast punk rock, distorted power guitar, driving bass, pounding drums, shouted vocals, raw and aggressive, 180 bpm",
+      "arc": "short intro, count in, full band riff, mosh breakdown, riff again, hard stop outro",
+      "mix": "raw distorted mix, loud guitar, in the red"
+    },
+    "bossa": {
+      "label": "Bossa Nova",
+      "keywords": "bossa nova, nylon string guitar, brushed drums, soft piano, upright bass walk, gentle vibraphone, relaxed, 140 bpm",
+      "arc": "soft guitar intro, gentle groove, melodic variation, quiet interlude, full warm groove, fading guitar outro",
+      "mix": "warm intimate mix, soft brushed drums, natural reverb"
+    },
+    "synthwave": {
+      "label": "Synthwave",
+      "keywords": "synthwave, retro analog synths, gated reverb drums, punchy bass, wide pads, arpeggio, neon night drive, 100 bpm",
+      "arc": "dark intro, arpeggio build, bright chorus, breakdown, wide chorus, fading neon outro",
+      "mix": "big analog synths, gated reverb drums, wide stereo"
+    }
+  }
+}
