@@ -1,0 +1,47 @@
+{
+    "format": "wav",
+    "lora_name_or_path": "none",
+    "lora_weight": 1.0,
+    "task": "text2music",
+    "prompt": "cyberpunk techno, 145 bpm driving beat, energetic female vocal, electronic, neon",
+    "lyrics": "[Bridge]\nWenn die Stadt ganz leise spricht,\nSeh ich Hoffnung im künstlichen Licht.\nEin neuer Horizont erwacht,\nIch lauf weiter durch die Nacht.",
+    "audio_duration": 55.0,
+    "infer_step": 60,
+    "guidance_scale": 15.0,
+    "scheduler_type": "euler",
+    "cfg_type": "apg",
+    "omega_scale": 10.0,
+    "guidance_interval": 0.5,
+    "guidance_interval_decay": 0.0,
+    "min_guidance_scale": 3.0,
+    "use_erg_tag": true,
+    "use_erg_lyric": true,
+    "use_erg_diffusion": true,
+    "oss_steps": [],
+    "timecosts": {
+        "preprocess": 0.04453325271606445,
+        "diffusion": 9.196147680282593,
+        "latent2audio": 1.287466287612915
+    },
+    "actual_seeds": [
+        23
+    ],
+    "retake_seeds": [
+        4290151554
+    ],
+    "retake_variance": 0.5,
+    "guidance_scale_text": 0.0,
+    "guidance_scale_lyric": 0.0,
+    "repaint_start": 0,
+    "repaint_end": 0,
+    "edit_n_min": 0.0,
+    "edit_n_max": 1.0,
+    "edit_n_avg": 1,
+    "src_audio_path": null,
+    "edit_target_prompt": null,
+    "edit_target_lyrics": null,
+    "audio2audio_enable": false,
+    "ref_audio_strength": 0.5,
+    "ref_audio_input": null,
+    "audio_path": "musicgen/out/neonlauf-vocal-02.wav"
+}

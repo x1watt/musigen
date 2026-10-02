@@ -98,6 +98,19 @@ export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 Styles: `techno`, `house`, `dnb`, `ambient`, `lofi`, `trap`, `cinematic`,
 `punk`, `bossa`, `synthwave`. Any other `-s` value passes through as free text.
 
+## Samples
+
+Two renders, both committed under `musicgen/out/`:
+
+| file | engine | notes |
+| --- | --- | --- |
+| `neonlauf-vocal.mp3` | ACE-Step | "cyberpunk techno, 145 bpm driving beat, energetic female vocal", German lyrics from `lyrics/cyberpunk-neonlauf.txt`, 165s, 60 steps, seed 21, `--split` across three sections |
+| `hard-techno-very-fast-145-bpm-relentless-20261002-120444.mp3` | MusicGen | instrumental, `-s techno --arc continuous`, 180s |
+
+The three `neonlauf-vocal-0*_input_params.json` files are ACE-Step's own
+per-section parameter dumps for the song above, so the render can be repeated
+exactly.
+
 ### Vocals (ACE-Step)
 
 ```bash

@@ -1,0 +1,47 @@
+{
+    "format": "wav",
+    "lora_name_or_path": "none",
+    "lora_weight": 1.0,
+    "task": "text2music",
+    "prompt": "cyberpunk techno, 145 bpm driving beat, energetic female vocal, electronic, neon",
+    "lyrics": "[Verse]\nUnter Neonregen zieh ich durch die Stadt,\nMetallene Straßen, die der Morgen vergessen hat.\nMein Herz schlägt im Takt der digitalen Zeit,\nJeder Schritt ein Funke, der mich weiter treibt.\nHologramme flimmern über Beton,\nDer Puls der Maschinen wird mein eigener Ton.\nZwischen Schatten und Licht auf dem Asphalt,\nFind ich meine Kraft, die niemals verhallt.",
+    "audio_duration": 55.0,
+    "infer_step": 60,
+    "guidance_scale": 15.0,
+    "scheduler_type": "euler",
+    "cfg_type": "apg",
+    "omega_scale": 10.0,
+    "guidance_interval": 0.5,
+    "guidance_interval_decay": 0.0,
+    "min_guidance_scale": 3.0,
+    "use_erg_tag": true,
+    "use_erg_lyric": true,
+    "use_erg_diffusion": true,
+    "oss_steps": [],
+    "timecosts": {
+        "preprocess": 0.3374176025390625,
+        "diffusion": 9.957780122756958,
+        "latent2audio": 1.3845796585083008
+    },
+    "actual_seeds": [
+        21
+    ],
+    "retake_seeds": [
+        3741675609
+    ],
+    "retake_variance": 0.5,
+    "guidance_scale_text": 0.0,
+    "guidance_scale_lyric": 0.0,
+    "repaint_start": 0,
+    "repaint_end": 0,
+    "edit_n_min": 0.0,
+    "edit_n_max": 1.0,
+    "edit_n_avg": 1,
+    "src_audio_path": null,
+    "edit_target_prompt": null,
+    "edit_target_lyrics": null,
+    "audio2audio_enable": false,
+    "ref_audio_strength": 0.5,
+    "ref_audio_input": null,
+    "audio_path": "musicgen/out/neonlauf-vocal-00.wav"
+}

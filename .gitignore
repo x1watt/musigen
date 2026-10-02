@@ -3,4 +3,7 @@
 models/
 __pycache__/
 *.pyc
-musicgen/out/
+musicgen/out/*
+!musicgen/out/neonlauf-vocal.mp3
+!musicgen/out/neonlauf-vocal-*_input_params.json
+!musicgen/out/hard-techno-very-fast-145-bpm-relentless-20261002-120444.mp3
